@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Inkwave – Minimalist PDF Scanner</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #fff;
+      color: #000;
+      line-height: 1.6;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    header, section {
+      padding: 4rem 1rem;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    h1, h2, h3 {
+      font-weight: 600;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      margin-bottom: 1rem;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 6rem 1rem 4rem;
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      background-color: #000;
+      color: #fff;
+      border-radius: 4px;
+      font-weight: 600;
+      transition: background 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #333;
+    }
+
+    .grid {
+      display: grid;
+      gap: 2rem;
+    }
+
+    .grid-2 {
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+
+    .screenshot-placeholder {
+      background: #f1f1f1;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #888;
+      font-size: 1rem;
+      border: 1px dashed #ccc;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 0.9rem;
+      color: #666;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    .grid-3 {
+      display: grid;
+      gap: 1.5rem;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
+.screenshots img {
+  width: 100%;
+  max-width: 220px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  margin: 0 auto;
+}
+
+
+    @media (max-width: 600px) {
+      .hero h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <h1>Inkwave</h1>
+    <p>Minimalist PDF Scanner – Fast, clean, effortless.</p>
+    <a href="https://play.google.com/store/apps/details?id=arvstudios.av.special.pdf.scanner.ink.wave&pcampaignid=web_share" class="btn" target="_blank">Get it on Google Play</a>
+  </header>
+
+  <!-- Features Section -->
+  <section id="features">
+    <h2 class="section-title">Key Features</h2>
+    <div class="grid grid-2">
+      <div><strong>AI Auto-detect & Crop</strong><br/>Smart framing of documents in real time.</div>
+      <div><strong>Background Removal</strong><br/>Eliminate shadows, stains, and clutter.</div>
+      <div><strong>Text Enhancement</strong><br/>Sharpen words with a single tap.</div>
+      <div><strong>Multi-page Scanning</strong><br/>Combine multiple scans into one PDF.</div>
+      <div><strong>Auto-rotate & Straighten</strong><br/>Fix angled shots instantly.</div>
+      <div><strong>Lightweight & Private</strong><br/>Fast on-device processing. No data sent to cloud.</div>
+    </div>
+  </section>
+
+  <!-- Why Inkwave -->
+  <section id="why">
+    <h2 class="section-title">Why Inkwave</h2>
+    <p>Inkwave combines minimalist aesthetics with pro-level scanning tools, creating a seamless user experience. No clutter, no confusion—just powerful results in seconds.</p>
+  </section>
+
+  <!-- Use Cases -->
+  <section id="use-cases">
+    <h2 class="section-title">Perfect for Everyday Use</h2>
+    <div class="grid grid-2">
+      <div><strong>Students</strong><br/>Scan notes, assignments, and study material.</div>
+      <div><strong>Professionals</strong><br/>Digitize contracts, invoices, and reports.</div>
+      <div><strong>Personal Use</strong><br/>Keep receipts, ID cards, and documents organized.</div>
+    </div>
+  </section>
+
+  <!-- Screenshots Placeholder -->
+  <section id="screenshots">
+    <h2 class="section-title">App Screenshots</h2>
+    <div class="grid grid-3 screenshots" style="justify-items: center;">
+      <img src="screenshot 1.png" alt="Screenshot 1" loading="lazy"/>
+      <img src="screenshot 2.png" alt="Screenshot 2" loading="lazy"/>
+      <img src="screenshot 3.png" alt="Screenshot 3" loading="lazy"/>
+      <img src="screenshot 4.png" alt="Screenshot 4" loading="lazy"/>
+      <img src="screenshot 5.png" alt="Screenshot 5" loading="lazy"/>
+      <img src="screenshot 6.png" alt="Screenshot 6" loading="lazy"/>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section id="download" style="text-align: center;">
+    <h2>Download Inkwave Now</h2>
+    <p>Simplify your scanning workflow with the power of AI and minimalism.</p>
+    <a href="https://play.google.com/store/apps/details?id=arvstudios.av.special.pdf.scanner.ink.wave&pcampaignid=web_share" class="btn" target="_blank">Download on Google Play</a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 Inkwave. All rights reserved. &bull; <a href="mailto:adarshr2345@gmail.com">support@inkwave.app</a>
+  </footer>
+
+</body>
+</html>
